@@ -4,77 +4,178 @@
   border: 0;
   box-sizing: border-box;
 }
-a {
-  text-decoration: none;
-}
-
 ul,
 ol {
   list-style: none;
 }
-
-.conteiner {
-  width: 1140px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
-.nav-link {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  /* color: #ffffff; */
+a {
+  text-decoration: none;
 }
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
 }
-
-.nav-item:not(:last-child) {
-  margin-right: 30px;
+.video {
+  padding-top: 70px;
+  padding-bottom: 420px;
+  background-image: url(./img/Rectangle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.video-heading {
+  /* h2 */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
 
-.header {
-  padding: 40px 0px;
-  border-bottom: 2px solid #ff0000;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
+.video-text {
+  /* Просто подивіться, як ми працюємо */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
 
-.hero_text {
+  color: #ffffff;
+}
+.video-container {
+  position: relative;
+}
+.video-button-container {
+  position: absolute;
+  top: 300px;
+  background-image: url(./img/Rectangle2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  padding-top: 165px;
+  padding-bottom: 165px;
+  margin: 0 auto;
+  padding-left: 335px;
+  padding-right: 335px;
+}
+.video-button {
+  width: 300px;
+  height: 100px;
+}
+.video-button-text {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
-  text-align: center;
+  line-height: 25px;
+
   color: #ffffff;
 }
+.video-button-text::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url(./img/play-button.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-.hero_heading {
+.advance {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(80, 77, 194, 1) 50%
+  );
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+
+.advance-title {
+  width: 540px;
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 64px;
-  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+
   color: #ffffff;
 }
 
-.hero_button {
-  width: 200px;
-  display: block;
-  margin: 0 auto;
-  padding: 15px 36px;
-  border-radius: 30px;
-  background-color: #4985ff;
+.advance-button {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0em;
+  line-height: 19.5px;
   text-align: center;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  padding-left: 36px;
+  padding-right: 36px;
+  border-radius: 30px;
+  background-color: #4985ff;
   color: #ffffff;
+  width: 200px;
+  height: 45px;
+}
+
+.advance-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.advance-list {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 85px;
+}
+
+.advance-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advance-img {
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.advance-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.number {
+  color: #4985ff;
+}
+
+.advance-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  margin-bottom: 47px;
+}
+
+.advance-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #4985ff;
 }
